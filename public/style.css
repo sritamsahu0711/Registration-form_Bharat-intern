@@ -1,0 +1,72 @@
+body {
+    background-image: url('astronaut-illustration--wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.registration-form {
+    background-image:url('945200.jpeg') ;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgb(246, 244, 244);
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+
+}
+
+.registration-form label {
+    display: block;
+    font-weight: bold;
+    margin: 1px;
+    color: #000000;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px rgb(194, 243, 211);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.registration-form button {
+    display: flex;
+    background-color: #DDA15E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.registration-form p {
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.registration-form a {
+    color: #254cd6;
+    text-decoration: none;
+}
